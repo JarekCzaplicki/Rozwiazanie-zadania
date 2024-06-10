@@ -38,4 +38,16 @@ public class ProductServiceStart implements ProductService {
                 )
         );
     }
+
+    public MessageSource getMessageSource() {
+        return messageSource;
+    }
+
+    public Double getSummaryPrice() {
+        return summaryPrice;
+    }
+
+    public String getLocale() {
+        return locale;
+    }
 }
